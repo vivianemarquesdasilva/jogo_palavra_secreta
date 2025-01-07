@@ -16,6 +16,9 @@ while True:
     if tema_escolhido not in numeros_aceitos or tema_escolhido == '':
         print('Por favor digite um número de 1 a 5.')
         continue
+    elif len(tema_escolhido) > 1:
+        print('Por favor digite apenas um número')
+        continue
     else:
         break
 
